@@ -1,0 +1,128 @@
+@media only screen and (max-width: 991px){
+    .bg-logo-hamburger-menu-mob-tab-home {
+        background: #162441 !important;
+    }
+    .instant-quote-form-wrapper {
+        margin-top: 70px !important;
+    }
+}
+.bg-logo-navbar-desktop-home {
+    background: #162441 !important;
+}
+.error_message {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font: 12px sans-serif;
+    line-height: 2.4em;
+    color: red;
+}
+
+.order-summary__body-item {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.order-summary__body-item-icon .fa-envelope{
+    margin-top: 7px;
+}
+button.order_msg{
+    padding: 4px 14px;
+}
+.msg_text{
+    margin-top: 1em;
+}
+.order-summary__body-item-icon {
+    margin-right: 8px;
+}
+
+.order-summary__body-item-label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.order-summary__body-item-text {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.sourceLangBold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.order-summary__footer h6 {
+    display: flex;
+    font-size: 16px;
+    text-transform: none;
+    padding-top: 20px;
+}
+
+.order-summary__total {
+    margin-left: auto;
+}
+
+.order-summary__body {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.modal-body {
+    padding: 40px;
+}
+
+.order-summary__body-item-target-languages {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+
+.label--outline {
+    margin-top: 16px;
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    border:1px solid #d2d2d2;
+}
+.delivery-input label input,
+.deliveryDate_standard input,
+.deliveryDate_special input,
+.deliveryDate_faster input,
+.deliveryDate_proofreading input,
+.form-group .privacy-data,
+input.casting_required,
+.file_editing input {
+    width: 15px !important;
+    box-shadow: none !important;
+}
+.form-group label a.privacy{
+    text-decoration: underline;
+    color: #0055b8;
+}
+
+/*--Media Style for Responsive--*/
+
+@media only screen and (max-width: 768px) {
+    .file_editing{
+        margin-top: 1em;
+    }
+}
+@media only screen and (max-width: 420px) {
+    a#aMultiple{
+        position: initial !important;
+    }
+    .deliveryDate_standard label, .deliveryDate_special label{
+        font-size: 3vw !important;
+    }
+    .user_message textarea{
+        font-size: 12px !important;
+    }
+}

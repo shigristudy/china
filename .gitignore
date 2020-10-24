@@ -1,0 +1,19 @@
+/node_modules
+/public/hot
+/public/index.php
+/public/storage
+/public/uploads
+/storage/*.key
+/vendor
+/.history
+/.idea
+# server.php
+# index.php
+.htaccess
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
